@@ -1,0 +1,62 @@
+.contact{
+    padding: 5rem 0;
+    .contact_text{
+        text-align: center;
+        position: relative;
+        i {
+            color: #2C3E50;
+            font-size: 32px;
+            margin: 20px 0px;
+        }
+
+        .hr_7 {
+            border: 2px solid #2C3E50;
+            border-radius: 5px;
+            height: 2px;
+            width: 6%;
+            background-color: #2C3E50;
+            position: absolute;
+            left: 40%;
+            bottom: 25%;
+        }
+
+        .hr_8 {
+            border: 2px solid #2C3E50;
+            border-radius: 5px;
+            height: 2px;
+            width: 6%;
+            background-color: #2C3E50;
+            position: absolute;
+            right: 40%;
+            bottom: 25%;
+        }
+
+        h2 {
+            color: #2C3E50;
+            font-size: 48px;
+        }
+    }
+    .contact_inputs{
+        margin: auto;
+        width: 50%;
+        input{
+            display: block;
+            border: none;
+            padding: 20px 400px 20px 0px;
+            outline: none;
+            margin-top: 50px;
+            font-size: 20px;
+            color: #6C8BC0;
+        }
+    }
+    button{
+        padding: 20px 30px;
+        background-color: #1ABC9C;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
